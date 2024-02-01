@@ -20,7 +20,7 @@ async function robo(moedaBase, moedaFinal) {
     console.log(`O valor de 1 ${moedaBase} em ${moedaFinal} é ${resultado}`);
 
     await browser.close();
-}
+};
 
 const argv = yargs(hideBin(process.argv))
     .option('base', {
